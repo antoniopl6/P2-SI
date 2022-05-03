@@ -52,15 +52,19 @@
     <UnityVersion>2020.1.8f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\RW\Scripts\sheep.cs" />
+    <Compile Include="Assets\RW\Scripts\DestroyOnTrigger.cs" />
     <Compile Include="Assets\RW\Scripts\rotateWheelWindmill.cs" />
     <Compile Include="Assets\RW\Scripts\HayMachine.cs" />
-    <Compile Include="Assets\RW\Scripts\rotate.cs" />
-    <Compile Include="Assets\RW\Scripts\move.cs" />
-    <Compile Include="Assets\RW\Scripts\DestroyOnTrigger.cs" />
-    <Compile Include="Assets\RW\Scripts\sheep.cs" />
-    <Compile Include="Assets\RW\Scripts\SheepSpawner.cs" />
     <Compile Include="Assets\RW\Scripts\GameStateManager.cs" />
+    <Compile Include="Assets\RW\Scripts\move.cs" />
+    <Compile Include="Assets\RW\Scripts\rotate.cs" />
+    <Compile Include="Assets\RW\Scripts\SheepSpawner.cs" />
     <Compile Include="Assets\RW\Scripts\UIManager.cs" />
+    <Compile Include="Assets\RW\Scripts\Title.cs" />
+    <Compile Include="Assets\RW\Scripts\StartButton.cs" />
+    <Compile Include="Assets\RW\Scripts\QuitButton.cs" />
+    <Compile Include="Assets\RW\Scripts\ChangeColorOnMouseOver.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
